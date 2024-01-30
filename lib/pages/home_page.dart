@@ -163,7 +163,28 @@ class _HomePageNewState extends State<HomePage> {
                   ),
                   Row(
                     children: [
-
+                      Image.asset(
+                        'assets/images/ico_hotel.png',
+                        width: 120,
+                        height: 30,
+                        fit: BoxFit.contain,
+                      ),
+                      Text(
+                        'Hotels',
+                        style: TextStyle(fontSize: 16),
+                      ),
+                      Image.asset(
+                        'assets/images/ico_plane.png',
+                        width: 120,
+                        height: 30,
+                        fit: BoxFit.contain,
+                      ),
+                      Image.asset(
+                        'assets/images/ico_hotel_plane.png',
+                        width: 120,
+                        height: 30,
+                        fit: BoxFit.contain,
+                      )
                     ],
                   ),
                   Row(

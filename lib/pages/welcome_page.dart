@@ -46,14 +46,14 @@ class _WelcomePageState extends State<WelcomePage> {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              AppText(text: "Trips", size: 30, fontWeight: FontWeight.bold, color: Colors.white,),
-                              AppText(text: "Mountain", size: 30, color: Colors.white,),
+                              AppText(text: "Du lịch", size: 30, fontWeight: FontWeight.bold, color: Colors.white,),
+                              AppText(text: "Việt Nam", size: 30, color: Colors.white,),
                               const SizedBox(
                                 height: 20,
                               ),
                               SizedBox(
                                 width: 300,
-                                child:AppText(text: "We will build it step by step. We will also build the ui and do api request. We will cover http get request and load the data using flutter cubit  or bloc.", size: 16, color: Colors.white.withOpacity(0.5),),
+                                child:AppText(text: "Việt Nam với rất nhiều thành phố, hãy bấm nút mũi tên để xem thêm thông tin", size: 16, color: Colors.white.withOpacity(1),),
                               ),
                               const SizedBox(
                                 height: 40,
